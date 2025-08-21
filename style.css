@@ -1,0 +1,51 @@
+html {
+  font-size: 20px; /* 1rem = 20px */
+}
+
+html h1 {
+  font-size: 2rem; /* 40px */
+  margin-bottom: 20px;
+}
+
+h1 > .principal {
+  font-size: 1.4em; /* 1.4 × 40px = 56px */
+  display: block;
+  margin-top: 10px;
+}
+
+html .secundario {
+  font-size: 1.4rem; /* 1.4 × 20px = 28px */
+  display: block;
+  margin-top: 10px;
+}
+
+/* Cores */
+.original {
+  color: rgb(219, 78, 68);
+}
+.mais-clara {
+  color: rgb(252, 90, 78);
+}
+.mais-escura {
+  color: rgb(186, 66, 57);
+}
+
+/* Layout para comparar cores */
+.cores {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+.cores div {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+}
+.cores .original { background: rgb(219, 78, 68); }
+.cores .mais-clara { background: rgb(252, 90, 78); }
+.cores .mais-escura { background: rgb(186, 66, 57); }
